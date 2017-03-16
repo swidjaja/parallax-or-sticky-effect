@@ -12,6 +12,12 @@
   margin-top: 10px;
 }
 
+/** From http://www.outsidethebracket.com/responsive-web-design-fluid-background-images/ */
+.app-wrapper.enable-responsive .cover-img {
+  padding-bottom: 33.33%;
+  height: 0;
+}
+
 .app-wrapper.enable-parallax .cover-img {
   /** Add parallax effect */
   background-attachment: fixed;
